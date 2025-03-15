@@ -22,10 +22,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='file:///private/var/folders/rm/mcg3_4h15jgd7cfqhs4f_k_c0000gn/T/e74bb446403ff6ca7e35fccbfb25dfac/Kapture%202025-03-15%20at%2002.12.51.gif' />
-![Kapture 2025-03-15 at 02 12 51](https://github.com/user-attachments/assets/e806432a-b42a-4e2c-a0d5-290c4a17e243)
+<img src='file:///private/var/folders/rm/mcg3_4h15jgd7cfqhs4f_k_c0000gn/T/e74bb446403ff6ca7e35fccbfb25dfac/Kapture%202025-03-15%20at%2002.12.51.gif')
 
-
+file:///private/var/folders/rm/mcg3_4h15jgd7cfqhs4f_k_c0000gn/T/e74bb446403ff6ca7e35fccbfb25dfac/Kapture%202025-03-15%20at%2002.12.51.gif
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
