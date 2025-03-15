@@ -1,0 +1,123 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+  margin: 0;
+  background-color: #f5f5f5;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: 50px auto;  
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;  
+}
+
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+
+.flashcard {
+  background-color: #1a1a1a;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px auto;
+  width: 80%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease-in-out;
+}
+
+.flashcard:hover {
+  background-color: #333;
+}
+
+
+input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.feedback {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+}
+
+.incorrect {
+  color: red;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #1a1a1a;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+button:active {
+  background-color: #555;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+
+p.card-count, p.streak {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+
+@media (max-width: 600px) {
+  .flashcard {
+    font-size: 16px;
+    padding: 30px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
